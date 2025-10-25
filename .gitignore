@@ -1,2 +1,4 @@
-# Best practice to only upload code to github. The follow folder contains data.
+# Best practice to only upload code to github.
+#the /books folder contains data.
 /books
+.continue
