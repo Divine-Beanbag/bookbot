@@ -14,8 +14,35 @@ def count_characters(book_path):
                 characters[character] = 1
             else:
                 characters[character] += 1
-        for character in (characters):
-            print(f"'{character}': {characters[character]}")
-   
+    return characters
+
+def sort_characters(character_count):
+    char_list = []
+
+    for character, number in character_count.items():
+        if character.isalpha():
+            char_list.append({"char": character, "num": number})
+
+    def get_num(num):
+        return num["num"]
+
+    char_list.sort(key=get_num, reverse=True)
+
+    return char_list
+        
     
+            
+
+ 
+     
+             
+
+
+
+
+    
+
+
+
+
 
