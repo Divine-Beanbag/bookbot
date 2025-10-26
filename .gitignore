@@ -4,3 +4,4 @@
 #the .continue file has ai-agent settings...
 .continue
 __pycache__
+__pycache__/
