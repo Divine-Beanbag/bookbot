@@ -1,11 +1,11 @@
 import sys
 from stats import count_characters, count_words, sort_characters
 
-if sys.argv < 2:
-    print("Usage: python main.py <path_to_book>")
+if len(sys.argv) < 2:
+    print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
 
-book_path = sys.argv[2]
+book_path = sys.argv[1] # Remember '1' means the second argument!
 
 word_count = count_words(book_path) 
 character_count = count_characters(book_path)

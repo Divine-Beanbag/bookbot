@@ -1,4 +1,6 @@
 # Best practice to only upload code to github.
 #the /books folder contains data.
 /books
+#the .continue file has ai-agent settings...
 .continue
+__pycache__
